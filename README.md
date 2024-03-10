@@ -3,6 +3,15 @@ Learning Resources
 
 `Learning Processes and Resources`
 
+# What does this repo accomplish
+Learning Resources is an exercise based repo for beginner to intermediate learners.
+It is designed to teach fundemental concepts of computer science and programming.
+It also can be used as an exercise tool for individuals changing between languages.
+
+The exercises are based on teaching computational logic and reasoning while also teaching syntax.
+As such, each section will not be syntax driven only, it's designed to teach you the core concepts of programming as you progress through the course.
+Recommendations are to fork the repo to your own github user, and then push your solutions to your own git repo as you finish them.
+
 # System Setup
 ## Javascript Setup
 - Confirm your system has the latest [node version](https://nodejs.org/en) installed
