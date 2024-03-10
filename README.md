@@ -37,7 +37,6 @@ There will be multiple files for each indivdual language. Feel free to either:
 ## Javascript run
 - `node main.js` in the lesson of choice
 
-
 ## Go Run
 - `go run main.go` in the lesson of choice
 
