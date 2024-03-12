@@ -17,7 +17,7 @@ let myString;
 console.log("1. Instantiated Variables -------------------");
 console.log(myBool, myFloat, myInt, myString);
 
-// Exercise 1. Initialize 10 different variables, varying between all of the primative types. Do not provide any of them with values.
+// Exercise 1. Instantiate 10 different variables, varying between all of the primative types. Do not provide any of them with values.
 
 // Exercise 2. Print out your 10 instantiated variables,
 

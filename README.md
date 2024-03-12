@@ -41,4 +41,6 @@ There will be multiple files for each indivdual language. Feel free to either:
 - `go run main.go` in the lesson of choice
 
 ## Rust run
-- `cargo run` in the lesson of choice
+- go into the lesson of choice with a terminal
+- run `rustc main.rs`
+- run `./main`
