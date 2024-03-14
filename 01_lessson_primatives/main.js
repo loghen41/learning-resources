@@ -18,14 +18,28 @@ console.log("1. Instantiated Variables -------------------");
 console.log(myBool, myFloat, myInt, myString);
 
 // Exercise 1. Initialize 10 different variables, varying between all of the primative types. Do not provide any of them with values.
+let Day;
+let monthInt;
+let Year;
+let monthString;
+let holiday;
+
+let movieTitle;
+let movieGenre;
+let movieExlusive;
+let movieRating;
+let movieReleaseDate;
 
 // Exercise 2. Print out your 10 instantiated variables,
+console.log("My Instantiated Varliables")
+console.log(Day, monthInt, Year, monthString, holiday, movieTitle, movieGenre, movieExlusive,movieRating, movieReleaseDate);
+
 
 // Initalization is when we provide an `initial` value for an instantiated variable
 // In Javascript, this can be done one of three ways
 
 // Var notation
-let secondBool = true;
+var secondBool = true;
 
 // Let notation
 let thirdBool = true;
@@ -40,7 +54,8 @@ const fourthBool = true;
 console.log("2. Initalized Variables -------------------");
 console.log(secondBool, thirdBool, fourthBool);
 
-// Exercise 3. Initialize 10 variables using var notiation 
+// Exercise 3. Initialize 10 variables using var notiation
+
 
 // Exercise 5 - Initialize 10 variables using let notation
 
