@@ -21,6 +21,17 @@ fn main() {
 	// println!("{} {} {} {}" ,myBool, myFloat, myInt, myString);
 
 	// Exercise 1. Instantiate 10 different variables, varying between all of the primative types. Do not provide any of them with values.
+	// let day: i32;
+	// let month: i32;
+	// let month_name: char;
+	// let year: i32;
+	// let second: i32;
+	// let minute: i32;
+	// let hour: i32;
+	// let holiday: bool;
+	// let holiday_name: char;
+	// let tempurater: f32;
+
 
 	// Exercise 2. Attempt to print out your 10 instantiated variables
 	// See the compiler error provided, and then remove the 10 instantiated variables
@@ -41,11 +52,33 @@ fn main() {
 	println!("{} {}", second_bool, third_bool);
 
 	// Exercise 3. Initialize 10 variables using the explicit type notation
+	let mut day: i32 = 7;
+	let mut month: i32 = 3;
+	let mut month_name: String = "March".to_string();
+	let mut year: i32 = 1995;
+	let second: i32 = 60;
+	let minute: i32 = 60;
+	let hour: i32 = 10;
+	let mut holiday: bool = false;
+	let holiday_name: String = "No".to_string();
+	let tempurater: f32 = 78.06;
 
 	// Exercise 4 - Initialize 10 variables using the inferred type notation
+	let mut day1 = 6;
+	let mut month1 = 7;
+	let mut month_name1 = "July".to_string();
+	let mut year1 = 1995;
+	let second1 = 45;
+	let minute1 = 25;
+	let hour1 = 20;
+	let mut holiday1 = false;
+	let holiday_name1 = "No".to_string();
+	let tempurater1 = 85.64;
 
 	// Exercise 6 - Print out all 20 variables declared above, along with the a guess at what will be printed out on the screen
 	// IE. println!("{} = true", secondBool);
+	println!("{} {} {} {} {} {} {} {} {} {}", day, month, month_name, year, second, minute, hour, holiday, holiday_name, tempurater);
+	println!("{} {} {} {} {} {} {} {} {} {}", day1, month1, month_name1, year1, second1, minute1, hour1, holiday1, holiday_name1, tempurater1);
 
 	// Setting variables is the process of overwriting variable values in order to change them to a new value
 	// For example, let's update the value of both some of the initalized and instantiated variables
@@ -62,10 +95,20 @@ fn main() {
 
 	// By updating variables, we can `set` them to a new value. This allows us to have dynamic systems that adjust and change over time
 	// Exercise 7 - Update 5 of the variables you instantiated to a new value
-
+	day = 1;
+	month = 8;
+	month_name = "August".to_string();
+	year = 1999;
+	holiday = false;
 	// Exercise 8 - Update 5 of the variables you initialized to a new value
-
+	day1 = 17;
+	month1 = 2;
+	month_name1 = "Febuary".to_string();
+	year1 = 2023;
+	holiday1 = false;
 	// Exercise 9 - Print out the 10 variables you updated
+	println!("{} {} {} {} {}", day, month, month_name, year, holiday);
+	println!("{} {} {} {} {}", day1, month1, month_name1, year1, holiday1);
 
 	// In Rust, certain variables cannot be mutated, aka updated.
 	// These variables are:
