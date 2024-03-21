@@ -46,6 +46,12 @@ fn main() {
 	// Exercise 3. Write a while loop similar to what was defined above, but using your variables instead
 	println!("3. Exercise three statements below ----------------");
 
+	// Exercise 4. Loops with Conditionals
+	// Write a loop that iterates through a series of numbers
+	// If the number is even, print out "Even"
+	// if the number is odd, print out "Odd"
+
+	
 	// For In loop
 	// A for ... in loop allows you to loop over the contents of a larger structure. Such as an array.
 	// For example:
@@ -57,8 +63,8 @@ fn main() {
 		println!("I like {}.", fruit);
 	}
 
-	// Exercise 4. Write a for ... in loop using an array and then print out statements from the array
-	println!("4. Exericse four statements below ------------");
+	// Exercise 5. Write a for ... in loop using an array and then print out statements from the array
+	println!("5. Exericse four statements below ------------");
 
 	// In summary
 	// Looping allow for logic to be executed repatedly, common loops are:

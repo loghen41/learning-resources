@@ -51,6 +51,11 @@ func main() {
 	// Exercise 3. Write a for loop similar to what was defined above, but using your variables instead
 	fmt.Println("3. Exercise three statements below ----------------")
 
+	// Exercise 4. Loops with Conditionals
+	// Write a loop that iterates through a series of numbers
+	// If the number is even, print out "Even"
+	// if the number is odd, print out "Odd"
+
 	// For In loop
 	// A for ... in loop allows you to loop over the contents of a larger structure. Such as an array.
 	// The golang version of for ... in is by using a for, range
@@ -64,9 +69,9 @@ func main() {
 		fmt.Printf("index: %v, fruit: %v\n", index, fruit)
 	}
 
-	// Exercise 4. Write an array and then loop through the array using the `for range` syntax
+	// Exercise 5. Write an array and then loop through the array using the `for range` syntax
 
-	fmt.Println("4. Exercise four statements below ----------------")
+	fmt.Println("5. Exercise four statements below ----------------")
 
 	// In summary
 	// Looping allow for logic to be executed repatedly, common loops are:

@@ -46,6 +46,11 @@ for (let i = myInt; i < mySecondInt; i++) {
 // Exercise 3. Write a for loop similar to what was defined above, but using your variables instead
 console.log("3. Exercise three statements below ----------------");
 
+// Exercise 4. Loops with Conditionals
+// Write a loop that iterates through a series of numbers
+// If the number is even, print out "Even"
+// if the number is odd, print out "Odd"
+
 // For In loop
 // A for ... in loop allows you to loop over the contents of a larger structure. Such as an array.
 // The Javascript version of for ... in is by using a for ... of
@@ -57,9 +62,9 @@ for (let fruit of myFruit) {
 	console.log(`my fruit: ${fruit}`);
 }
 
-// Exercise 4. Write an array and then loop through the array using the `for range` syntax
+// Exercise 5. Write an array and then loop through the array using the `for range` syntax
 
-console.log("4. Exercise four statements below ----------------");
+console.log("5. Exercise four statements below ----------------");
 
 // In summary
 // Looping allow for logic to be executed repatedly, common loops are:
