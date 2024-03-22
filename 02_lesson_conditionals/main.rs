@@ -11,6 +11,11 @@ fn main() {
 
 	println!("1. User created variables below -------------------");
 
+	let dog: &str = "dog";
+	let lizard: &str = "lizard";
+	let horse: &str = "horse";
+	let bird: &str = "bird";
+
 	// if, else if, else
 	// Conditionals are the process of breaking logic into separate branches of code.
 	// For example, the switch statement below checks what type of animal is being stored as a variable, and outputs different noises accordingly.
@@ -27,10 +32,33 @@ fn main() {
 
 	// Exercise 2. fill in what animal noise you think will be produced by the conditional statement above.
 
-	println!("2. The above conditional statement will produce the following noise: ''");
+	println!("2. The above conditional statement will produce the following noise: 'meow'");
 
 	// Exercise 3. Without doing copy and paste, create an `if` statement for your very first variable (without an else). Make the if branch execute
 	// For example.
+	if dog == "dog" {
+		println!("Dogo");
+	}
+
+	println!("{}", 4 + 4);
+	println!("{}", 3 - 1);
+	println!("{}", 5 * 8);
+	println!("{}", 3 >= 1);
+	println!("{}", 5 <= 1);
+	println!("{}", 5 == 5);
+	println!("{}", 5 != 3);
+	
+	let x = 5;
+
+	if 4 == x {
+		println!("{}", x);
+	} else if x >= 4 {
+		println!("That doesn't match fool?");
+	} 
+	
+	if 10 != x {
+		println!("No match")
+	}
 
 	println!("3. If statement exercises -------------------");
 
@@ -55,50 +83,28 @@ fn main() {
 		println!("it's not a cat");
 	}
 
-	// Exercise 4. Without doing a copy and paste, create a new `if, else if` statement for your second variable. Have it resolve true in the very first branch
-	// for example
-	println!("4. If, Else if statement exercises -------------------");
 
-	if my_color == "black" {
-		println!("It's a black cat");
-	} else if my_color == "tabby" {
-		println!("It's a tabby cat");
+
+	let party = "Awesome";
+
+	if party == "True" {
+		println!("Blah");
 	}
 
-	// Exercise 5. Without doing a copy and paste, create a new `if, else if` statement for your second variable. Have it resolve true in the second branch
-	// for example
-	if my_color == "tabby" {
-		println!("It's a tabby cat");
-	} else if my_color == "black" {
-		println!("It's a black cat");
+	if party != "Awesome" {
+		println!("Blah Blah")
+	} else if party == "Awesome Party!" {
+		println!("Oh yeah")
 	}
 
-	// Exercise 6. Without doing a copy and paste, create a new `if, else if` statement for your second variable. Provide it with four branches. Have not not resolve with any of them.
-	// for example
-	if my_color == "brown" {
-		println!("It's a brown cat");
-	} else if my_color == "white" {
-		println!("It's a white cat");
-	} else if my_color == "tuxedo" {
-		println!("It's a tuxedo cat");
-	} else if my_color == "orange" {
-		println!("It's a orange cat");
-	}
-
-	// Exercise 7. Without doing a copy and paste, create a new `if, else if, else` statement for your third variable. Have it execute on the else portion of your condition
-	// for example
-	println!("7. If, Else if, Else statement exercises -------------------");
-
-	if my_weight < 10.0 {
-		println!("it's a very light animal");
-	} else if my_weight < 15.0 {
-		println!("it's a light animal");
+	if party == "" {
+		println!("You missed the party");
+	} else if party == "Booze" {
+		println!("What's a party?");
 	} else {
-		println!("it's a normal sized animal");
+		println!("You found the secret party. Choose your weapon!");
 	}
 
-	// Match statement
-	// Match allows you to take the logic of a longer if, else if, else and condense it into a simpler syntax. This breaks down into Match and values
 
 	match my_animal { // match is the start of the statement, you declare `match` and then follow it up with a variable or value that you want to compare
 		"dog" => println!("bark"),       // This indicates an option, with an action to do if it resolves correctly
@@ -124,6 +130,18 @@ fn main() {
 		100 => println!("This is a tall animal"),
 		10 => println!("This is a short animal"),
 	 	_ => println!("This is a normal animal"),
+	}
+
+	let player = "Wizard";
+	
+	match player {
+		"Warrior" => println!("Very Strong"),
+		"Wizard" => println!("FIREBALL!!!"),
+		"Troll" => println!("Ugly Fella"),
+		"Obor" => println!("All for the club"),
+		"Elf" => println!("Pointy Ears"),
+		"Dwarf" => println!("Small Fry"),
+		_ => println!("You are not part of this party")
 	}
 
 	// In summary
