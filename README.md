@@ -36,7 +36,21 @@ The learning resources are broken down into folders defined as `lessons`.
 Each lesson with have a README.md which explains the concept as a general whole.
 There will be multiple files for each indivdual language. Feel free to either:
 - Pick one language and run through the examples in a single language
-- Execute the same exercise in each language, in order to understand the concept across multiple languages
+- Execute the same exercise in each language, in order to understand the concept across multiple languages  
+    - Java
+    - Javascript
+    - Python
+    - Ruby
+    - C++
+    - C#
+    - PHP
+    - Golang
+    - Rust
+    - Typescript
+    - Swift
+    - Kotlin
+    - ObjectiveC
+    - Scala
 
 # How to run
 
