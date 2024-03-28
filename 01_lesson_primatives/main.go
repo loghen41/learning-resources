@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("1. Instantiated Variables -------------------")
 	fmt.Println(myBool, myFloat, myInt, myString)
 
-	// Exercise 1. Initialize 10 different variables, varying between all of the primative types. Do not provide any of them with values.
+	// Exercise 1. Instantiate 10 different variables, varying between all of the primative types. Do not provide any of them with values.
 
 	// Exercise 2. Print out your 10 instantiated variables, and also print out what you think the default value will be when you print it.
 	// fmt.Println(variableName, defaultValueGuess)
