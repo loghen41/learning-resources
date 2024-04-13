@@ -77,7 +77,7 @@ func (w Weapon) DisplayName() string {
 	return fmt.Sprintf("%v %v", w.MaterialType, w.Type)
 }
 
-func main() {
+func example() {
 	// Logan
 	var myCharacter Character = NewCharacter("loghen41", GenderMale)
 
