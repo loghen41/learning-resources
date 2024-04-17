@@ -49,7 +49,7 @@ There will be multiple files for each indivdual language. Feel free to either:
     - Typescript
     - Swift
     - Kotlin
-    - ObjectiveC
+    - Objective-C
     - Scala
 
 # How to run
@@ -64,3 +64,26 @@ There will be multiple files for each indivdual language. Feel free to either:
 - go into the lesson of choice with a terminal
 - run `rustc main.rs`
 - run `./main`
+
+
+
+##
+## Git Commands and steps
+##
+
+Any new edits (be on your branch):
+- git status
+    - if uncommitted changes commit and push
+    - git commit -a -m "Comment"
+    - git push
+- git checkout main
+- git pull
+- git checkout luckysandwich7-exersices
+- git merge main
+    - resolve any merge conflicts if any
+- Then you are good to code away
+
+- NOTE: If on the wrong branch use and have done edits:
+    - git stash
+    - git checkout luckysandwich7-excerises
+    - git stash apply
